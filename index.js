@@ -1,7 +1,7 @@
 const activeWindows = require('electron-active-window');
 const apps = require('./apps.json');
 const DiscordRPC = require('discord-rpc');
-const clientId = '821857795653500949';
+const { clientId } = require('./config.json');
 const rpc = new DiscordRPC.Client({ transport: 'ipc' });
 
 const startTimestamp = new Date();

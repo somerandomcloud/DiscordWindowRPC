@@ -1,8 +1,7 @@
 {
-    "apps": [ "spotify", "discord", "whatsapp", "code"],
     "appinfo": [
         {
-            "name": "whatsapp",
+            "name": "whatsie",
             "state": "Messaging irl friends",
             "details": "Checking Whatsapp",
             "largekey": "whatsapp",
