@@ -1,0 +1,33 @@
+{
+    "apps": [ "spotify", "discord", "whatsapp", "code"],
+    "appinfo": [
+        {
+            "name": "whatsapp",
+            "state": "Messaging irl friends",
+            "details": "Checking Whatsapp",
+            "largekey": "whatsapp",
+            "largekeytext": "Whatsapp - icodeinassembly.xyz"
+        },
+        {
+            "name": "discord",
+            "state": "LARPing",
+            "details": "Checking Discord",
+            "largekey": "discord",
+            "largekeytext": "Discord - icodeinassembly.xyz"
+        },
+        {
+            "name": "spotify",
+            "state": "Probably changing song",
+            "details": "Checking Spotify",
+            "largekey": "spotify",
+            "largekeytext": "Spotify - icodeinassembly.xyz"
+        },
+        {
+            "name": "code",
+            "state": "Editing code",
+            "details": "Checking VSC",
+            "largekey": "vsc",
+            "largekeytext": "VSC - icodeinassembly.xyz"
+        }
+    ]
+}
