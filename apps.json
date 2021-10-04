@@ -3,28 +3,28 @@
         {
             "name": "whatsie",
             "state": "Messaging irl friends",
-            "details": "Checking Whatsapp",
+            "details": "Looking at Whatsapp",
             "largekey": "whatsapp",
             "largekeytext": "Whatsapp - icodeinassembly.xyz"
         },
         {
             "name": "discord",
-            "state": "LARPing",
-            "details": "Checking Discord",
+            "state": "Trolling",
+            "details": "Looking at Discord",
             "largekey": "discord",
             "largekeytext": "Discord - icodeinassembly.xyz"
         },
         {
             "name": "spotify",
             "state": "Probably changing song",
-            "details": "Checking Spotify",
+            "details": "Looking at Spotify",
             "largekey": "spotify",
             "largekeytext": "Spotify - icodeinassembly.xyz"
         },
         {
             "name": "code",
             "state": "Editing code",
-            "details": "Checking VSC",
+            "details": "Looking at VSC",
             "largekey": "vsc",
             "largekeytext": "VSC - icodeinassembly.xyz"
         }

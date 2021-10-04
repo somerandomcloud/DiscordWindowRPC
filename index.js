@@ -14,6 +14,8 @@ rpc.on('ready', () => {
 		largeImageText: 'Discord - icodeinassembly.xyz',
 	});
 
+	console.log('Starting RPC...');
+
 
 	setInterval(() => {
 		activeWindows().getActiveWindow().then((v)=>{
@@ -28,8 +30,6 @@ rpc.on('ready', () => {
             idleTime: '0'
         }
         */
-
-			console.log(v);
 
 			for (let i = 0; i < apps.appinfo.length ;i++) {
 				if(apps.appinfo[i].name === v.windowClass) {
