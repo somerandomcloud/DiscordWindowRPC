@@ -27,6 +27,19 @@
             "details": "Looking at VSC",
             "largekey": "vsc",
             "largekeytext": "VSC - icodeinassembly.xyz"
+        },
+        {
+            "name": "csgo_linux64",
+            "state": "Logged in as: Phoon",
+            "details": "Playing CS:GO",
+            "largekey": "csgo",
+            "largekeytext": "CS:GO - icodeinassembly.xyz"
         }
-    ]
+    ],
+    "default": {
+        "state": "Launching RPC",
+        "details": "Please hold",
+        "largekey": "discord",
+        "largekeytext": "icodeinassembly.xyz"
+    }
 }

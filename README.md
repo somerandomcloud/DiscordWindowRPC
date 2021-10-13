@@ -37,16 +37,7 @@ Open Task Manager (Task Manager can be opened in a number of ways, but the simpl
 
 ---
 
-Once you have found the desired app name, copy and paste this template, and fill in the blanks:
-```json
-{
-    "name": "YourAppID",
-    "state": "SecondLineInRPC",
-    "details": "FirstLineInRPC",
-    "largekey": "NameOfImageInDiscordApplicationArea",
-    "largekeytext": "TextOfImageInDiscordApplicationArea"
-},
-```
+Once you have found the desired app name, delete apps.json and rename apps.example.json to apps.json, and fill it in however you want
 
 The current `apps.json` should be completely cleared, as it is ready for use on linux only. While leaving the apps there doesnt break the rpc, it could affect performance (but not by much).
 

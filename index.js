@@ -8,10 +8,10 @@ const startTimestamp = new Date();
 
 rpc.on('ready', () => {
 	rpc.setActivity({
-		details: 'Launching RPC',
-		state: 'Please hold :)',
-		largeImageKey: 'discord',
-		largeImageText: 'Discord - icodeinassembly.xyz',
+		details: apps.default.details,
+		state: apps.default.state,
+		largeImageKey: apps.default.largekey,
+		largeImageText: apps.default.largekeytext,
 	});
 
 	console.log('Starting RPC...');
@@ -30,6 +30,16 @@ rpc.on('ready', () => {
             idleTime: '0'
         }
         */
+
+			console.log(v);
+
+			// rpc.setActivity({
+			// 	details: 'icodeinassembly.xyz',
+			// 	state: 'On another app',
+			// 	startTimestamp,
+			// 	largeImageKey: 'discord',
+			// 	largeImageText: 'icodeinassembly.xyz',
+			// });
 
 			for (let i = 0; i < apps.appinfo.length ;i++) {
 				if(apps.appinfo[i].name === v.windowClass) {
