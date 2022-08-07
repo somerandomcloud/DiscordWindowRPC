@@ -3,6 +3,8 @@
 DiscordWindowRPC is a [Discord](https://discord.com/) RPC client, that can detect which window you are tabbed in, and (if the application is added to the
  [apps.json](apps.json)) will display the app in your Discord RPC
 
+If you need support/further instructions create an issue.
+
 ![](https://i.imgur.com/GxoyGLJ.png)
 
 ## Donations
